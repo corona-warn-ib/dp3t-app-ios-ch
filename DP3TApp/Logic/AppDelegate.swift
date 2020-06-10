@@ -50,7 +50,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     private func setupWindow() {
-        window = UIWindow(frame: UIScreen.main.bounds)
+        #if ENABLE_TESTING
+            window = MBFingerTipWindow(frame: UIScreen.main.bounds)
+            (window as! MBFingerTipWindow).alwaysShowTouches = true
+        #else
+            window = UIWindow(frame: UIScreen.main.bounds)
+        #endif
+
         window?.overrideUserInterfaceStyle = .light
 
         TracingManager.shared.beginUpdatesAndTracing()

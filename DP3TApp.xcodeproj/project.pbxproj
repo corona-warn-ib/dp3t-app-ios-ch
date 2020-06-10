@@ -196,6 +196,7 @@
 		2485F47C2458625F00C3D8C3 /* DatabaseSyncer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2485F47B2458625F00C3D8C3 /* DatabaseSyncer.swift */; };
 		2485F47E2458AC9000C3D8C3 /* FakePublishManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2485F47D2458AC9000C3D8C3 /* FakePublishManager.swift */; };
 		2485F4802459631A00C3D8C3 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2485F47F2459631A00C3D8C3 /* NetworkError.swift */; };
+		24B4E2092490D58A00D7299A /* MBFingerTipWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B4E2072490D58900D7299A /* MBFingerTipWindow.m */; };
 		24D5EF682448CAB900C197D6 /* UIStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D5EF672448CAB900C197D6 /* UIStateManager.swift */; };
 		24F4D967246C33610011DC90 /* UIDevice+ScreenType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BBA10F246BFCBC00E42EE7 /* UIDevice+ScreenType.swift */; };
 		48E9679A2473478100E4A5D6 /* codegen-service-t.bag.admin.ch.der in Resources */ = {isa = PBXBuildFile; fileRef = 48E967992473478100E4A5D6 /* codegen-service-t.bag.admin.ch.der */; };
@@ -368,6 +369,8 @@
 		2485F47B2458625F00C3D8C3 /* DatabaseSyncer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseSyncer.swift; sourceTree = "<group>"; };
 		2485F47D2458AC9000C3D8C3 /* FakePublishManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakePublishManager.swift; sourceTree = "<group>"; };
 		2485F47F2459631A00C3D8C3 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		24B4E2072490D58900D7299A /* MBFingerTipWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFingerTipWindow.m; sourceTree = "<group>"; };
+		24B4E2082490D58A00D7299A /* MBFingerTipWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFingerTipWindow.h; sourceTree = "<group>"; };
 		24D33D902487B7FE0068E509 /* sq */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sq; path = sq.lproj/Localizable.strings; sourceTree = "<group>"; };
 		24D33D912487B7FE0068E509 /* sq */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sq; path = sq.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		24D33D922487B8140068E509 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -911,6 +914,8 @@
 		6EBD8D2A242CB7D500686D9F /* SharedUI */ = {
 			isa = PBXGroup;
 			children = (
+				24B4E2082490D58A00D7299A /* MBFingerTipWindow.h */,
+				24B4E2072490D58900D7299A /* MBFingerTipWindow.m */,
 				DCA3FFB224502D0F0003F5AD /* Views */,
 				24780B05242DFA1E003BB26C /* Helpers */,
 				24780B04242DF9ED003BB26C /* Controls */,
@@ -1562,6 +1567,7 @@
 				242D223B245C4BD8005DAEA8 /* NSHeaderErrorView.swift in Sources */,
 				242D223C245C4BD8005DAEA8 /* NSInformBottomButtonViewController.swift in Sources */,
 				242D223D245C4BD8005DAEA8 /* NSDebugscreenViewController.swift in Sources */,
+				24B4E2092490D58A00D7299A /* MBFingerTipWindow.m in Sources */,
 				242D223E245C4BD8005DAEA8 /* NSSplashViewController.swift in Sources */,
 				242D223F245C4BD8005DAEA8 /* NSMeldungModuleView.swift in Sources */,
 				242D2240245C4BD8005DAEA8 /* ConfigManager.swift in Sources */,

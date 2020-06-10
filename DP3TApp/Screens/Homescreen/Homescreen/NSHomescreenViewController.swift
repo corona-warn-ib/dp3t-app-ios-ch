@@ -138,53 +138,53 @@ class NSHomescreenViewController: NSTitleViewScrollViewController {
         stackScrollView.addArrangedView(whatToDoPositiveTestButton)
         stackScrollView.addSpacerView(2.0 * NSPadding.large)
 
-        #if ENABLE_TESTING
-            // DEBUG version for testing
-            let previewWarning = NSInfoBoxView(title: "preview_warning_title".ub_localized, subText: "preview_warning_text".ub_localized, image: UIImage(named: "ic-error")!, titleColor: .gray, subtextColor: .gray, leadingIconRenderingMode: .alwaysOriginal)
-            stackScrollView.addArrangedView(previewWarning)
+//        #if ENABLE_TESTING
+//            // DEBUG version for testing
+//            let previewWarning = NSInfoBoxView(title: "preview_warning_title".ub_localized, subText: "preview_warning_text".ub_localized, image: UIImage(named: "ic-error")!, titleColor: .gray, subtextColor: .gray, leadingIconRenderingMode: .alwaysOriginal)
+//            stackScrollView.addArrangedView(previewWarning)
+//
+//            stackScrollView.addSpacerView(NSPadding.large)
+//
+//            let debugScreenContainer = UIView()
+//
+//            if Environment.current != Environment.prod {
+//                debugScreenContainer.addSubview(debugScreenButton)
+//                debugScreenButton.snp.makeConstraints { make in
+//                    make.left.right.lessThanOrEqualToSuperview().inset(NSPadding.medium)
+//                    make.top.bottom.centerX.equalToSuperview()
+//                }
+//
+//                debugScreenButton.touchUpCallback = { [weak self] in
+//                    guard let strongSelf = self else { return }
+//                    strongSelf.presentDebugScreen()
+//                }
+//
+//                stackScrollView.addArrangedView(debugScreenContainer)
+//
+//                stackScrollView.addSpacerView(NSPadding.large)
+//            }
+//            debugScreenContainer.alpha = 0
+//        #endif
 
-            stackScrollView.addSpacerView(NSPadding.large)
-
-            let debugScreenContainer = UIView()
-
-            if Environment.current != Environment.prod {
-                debugScreenContainer.addSubview(debugScreenButton)
-                debugScreenButton.snp.makeConstraints { make in
-                    make.left.right.lessThanOrEqualToSuperview().inset(NSPadding.medium)
-                    make.top.bottom.centerX.equalToSuperview()
-                }
-
-                debugScreenButton.touchUpCallback = { [weak self] in
-                    guard let strongSelf = self else { return }
-                    strongSelf.presentDebugScreen()
-                }
-
-                stackScrollView.addArrangedView(debugScreenContainer)
-
-                stackScrollView.addSpacerView(NSPadding.large)
-            }
-            debugScreenContainer.alpha = 0
-        #endif
-
-        #if ENABLE_LOGGING
-            let uploadDBContainer = UIView()
-            uploadDBContainer.addSubview(uploadDBButton)
-            uploadDBButton.snp.makeConstraints { make in
-                make.left.right.lessThanOrEqualToSuperview().inset(NSPadding.medium)
-                make.top.bottom.centerX.equalToSuperview()
-            }
-
-            uploadDBButton.touchUpCallback = { [weak self] in
-                guard let strongSelf = self else { return }
-                strongSelf.uploadDatabaseForDebugPurposes()
-            }
-
-            stackScrollView.addArrangedView(uploadDBContainer)
-
-            stackScrollView.addSpacerView(NSPadding.large)
-            uploadDBContainer.alpha = 0
-        #endif
-        // End DEBUG version for testing
+//        #if ENABLE_LOGGING
+//            let uploadDBContainer = UIView()
+//            uploadDBContainer.addSubview(uploadDBButton)
+//            uploadDBButton.snp.makeConstraints { make in
+//                make.left.right.lessThanOrEqualToSuperview().inset(NSPadding.medium)
+//                make.top.bottom.centerX.equalToSuperview()
+//            }
+//
+//            uploadDBButton.touchUpCallback = { [weak self] in
+//                guard let strongSelf = self else { return }
+//                strongSelf.uploadDatabaseForDebugPurposes()
+//            }
+//
+//            stackScrollView.addArrangedView(uploadDBContainer)
+//
+//            stackScrollView.addSpacerView(NSPadding.large)
+//            uploadDBContainer.alpha = 0
+//        #endif
+//        // End DEBUG version for testing
 
         handshakesModuleView.alpha = 0
         meldungView.alpha = 0
@@ -212,17 +212,17 @@ class NSHomescreenViewController: NSTitleViewScrollViewController {
                 self.whatToDoPositiveTestButton.alpha = 1
             }, completion: nil)
 
-            #if ENABLE_TESTING
-                UIView.animate(withDuration: 0.3, delay: 0.7, options: [.allowUserInteraction], animations: {
-                    debugScreenContainer.alpha = 1
-                }, completion: nil)
-            #endif
-
-            #if ENABLE_LOGGING
-                UIView.animate(withDuration: 0.3, delay: 0.7, options: [.allowUserInteraction], animations: {
-                    uploadDBContainer.alpha = 1
-                }, completion: nil)
-            #endif
+//            #if ENABLE_TESTING
+//                UIView.animate(withDuration: 0.3, delay: 0.7, options: [.allowUserInteraction], animations: {
+//                    debugScreenContainer.alpha = 1
+//                }, completion: nil)
+//            #endif
+//
+//            #if ENABLE_LOGGING
+//                UIView.animate(withDuration: 0.3, delay: 0.7, options: [.allowUserInteraction], animations: {
+//                    uploadDBContainer.alpha = 1
+//                }, completion: nil)
+//            #endif
         }
     }
 
@@ -271,36 +271,6 @@ class NSHomescreenViewController: NSTitleViewScrollViewController {
 
     #if ENABLE_LOGGING
         private let uploadDBButton = NSButton(title: "Upload DB to server", style: .outlineUppercase(.ns_red))
-        private let uploadHelper = NSDebugDatabaseUploadHelper()
-        private func uploadDatabaseForDebugPurposes() {
-            let alert = UIAlertController(title: "Username", message: nil, preferredStyle: .alert)
-            alert.addTextField { $0.text = "" }
-            alert.addAction(UIAlertAction(title: "Upload", style: .default, handler: { [weak alert, weak self] _ in
-                let username = alert?.textFields?.first?.text ?? ""
-                self?.uploadDB(with: username)
-            }))
-            alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
-            present(alert, animated: true, completion: nil)
-        }
 
-        private func uploadDB(with username: String) {
-            let loading = UIAlertController(title: "Uploading...", message: "Please wait", preferredStyle: .alert)
-            present(loading, animated: true)
-
-            uploadHelper.uploadDatabase(username: username) { result in
-                let alert: UIAlertController
-                switch result {
-                case .success:
-                    alert = UIAlertController(title: "Upload successful", message: nil, preferredStyle: .alert)
-                case let .failure(error):
-                    alert = UIAlertController(title: "Upload failed", message: error.message, preferredStyle: .alert)
-                }
-
-                alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
-                loading.dismiss(animated: false) {
-                    self.present(alert, animated: false)
-                }
-            }
-        }
     #endif
 }

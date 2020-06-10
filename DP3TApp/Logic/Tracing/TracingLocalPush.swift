@@ -34,7 +34,7 @@ class TracingLocalPush: NSObject {
     }
 
     @UBUserDefault(key: "exposureIdentifiers", defaultValue: [])
-    private var exposureIdentifiers: [String] {
+    var exposureIdentifiers: [String] {
         didSet {
             for identifier in exposureIdentifiers {
                 if !oldValue.contains(identifier) {
