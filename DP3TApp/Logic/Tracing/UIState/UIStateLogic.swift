@@ -114,6 +114,7 @@ class UIStateLogic {
             newState.homescreen.meldungen.backgroundUpdateProblem = st.backgroundRefreshState != .available
         }
 
+        /*
         if manager.immediatelyShowSyncError {
             if manager.syncErrorIsNetworkError {
                 newState.homescreen.meldungen.syncProblemNetworkingError = true
@@ -151,6 +152,7 @@ class UIStateLogic {
                 #endif
             }
         }
+         */
     }
 
     private func setInfoBoxState(_ newState: inout UIStateModel) {
