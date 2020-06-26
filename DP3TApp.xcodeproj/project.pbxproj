@@ -147,19 +147,11 @@
 		242D225B245C4BD8005DAEA8 /* www.pt1-d.bfs.admin.ch.der in Resources */ = {isa = PBXBuildFile; fileRef = F80E736F245AF38E00C934B8 /* www.pt1-d.bfs.admin.ch.der */; };
 		242D225C245C4BD8005DAEA8 /* www.pt1.bfs.admin.ch.der in Resources */ = {isa = PBXBuildFile; fileRef = F80E736D245AF38E00C934B8 /* www.pt1.bfs.admin.ch.der */; };
 		242D225D245C4BD8005DAEA8 /* QuoVadis.der in Resources */ = {isa = PBXBuildFile; fileRef = F80E7370245AF38E00C934B8 /* QuoVadis.der */; };
-		242D225E245C4BD8005DAEA8 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C0D27242D04280017C4F9 /* Inter-SemiBold.ttf */; };
-		242D225F245C4BD8005DAEA8 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C0D28242D04280017C4F9 /* Inter-Bold.ttf */; };
-		242D2260245C4BD8005DAEA8 /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C0D2A242D04280017C4F9 /* Inter-Light.ttf */; };
 		242D2261245C4BD8005DAEA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E81CCA1241FCC7F006F2437 /* Assets.xcassets */; };
 		242D2262245C4BD8005DAEA8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC9A81A3242CE5E000AD1548 /* InfoPlist.strings */; };
-		242D2263245C4BD8005DAEA8 /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C0D2D242D04290017C4F9 /* Inter-ExtraLight.ttf */; };
 		242D2264245C4BD8005DAEA8 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24780B33242FDF4C003BB26C /* Launch Screen.storyboard */; };
-		242D2265245C4BD8005DAEA8 /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C0D26242D04280017C4F9 /* Inter-ExtraBold.ttf */; };
-		242D2266245C4BD8005DAEA8 /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C0D29242D04280017C4F9 /* Inter-Black.ttf */; };
 		242D2267245C4BD8005DAEA8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC9A81A1242CE5E000AD1548 /* Localizable.strings */; };
-		242D2268245C4BD8005DAEA8 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C0D2B242D04290017C4F9 /* Inter-Regular.ttf */; };
 		242D2269245C4BD8005DAEA8 /* Impressum in Resources */ = {isa = PBXBuildFile; fileRef = 6EC7E820245B27E10015A55B /* Impressum */; };
-		242D226A245C4BD8005DAEA8 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C0D2C242D04290017C4F9 /* Inter-Medium.ttf */; };
 		242D2275245C4BE6005DAEA8 /* DP3TSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 242D2274245C4BE6005DAEA8 /* DP3TSDK */; };
 		242D2276245D62D8005DAEA8 /* UserStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24780B06242DFCD9003BB26C /* UserStorage.swift */; };
 		242D2277245D62D9005DAEA8 /* UserStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24780B06242DFCD9003BB26C /* UserStorage.swift */; };
@@ -195,6 +187,14 @@
 		2485F4802459631A00C3D8C3 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2485F47F2459631A00C3D8C3 /* NetworkError.swift */; };
 		24D5EF682448CAB900C197D6 /* UIStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D5EF672448CAB900C197D6 /* UIStateManager.swift */; };
 		24F4D967246C33610011DC90 /* UIDevice+ScreenType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BBA10F246BFCBC00E42EE7 /* UIDevice+ScreenType.swift */; };
+		283744A224A5CF4E00315D11 /* Bariol-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 283744A124A5CF4E00315D11 /* Bariol-Light.otf */; };
+		283744A324A5CF4E00315D11 /* Bariol-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 283744A124A5CF4E00315D11 /* Bariol-Light.otf */; };
+		283744A524A5CF6400315D11 /* Bariol-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 283744A424A5CF6400315D11 /* Bariol-Bold.otf */; };
+		283744A624A5CF6400315D11 /* Bariol-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 283744A424A5CF6400315D11 /* Bariol-Bold.otf */; };
+		283744A824A5CF7700315D11 /* Bariol-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 283744A724A5CF7700315D11 /* Bariol-Thin.otf */; };
+		283744A924A5CF7700315D11 /* Bariol-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 283744A724A5CF7700315D11 /* Bariol-Thin.otf */; };
+		289B030024A4D2D700DE274F /* Bariol-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 289B02FF24A4D2D700DE274F /* Bariol-Regular.otf */; };
+		289B030124A4D2D700DE274F /* Bariol-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 289B02FF24A4D2D700DE274F /* Bariol-Regular.otf */; };
 		48E9679A2473478100E4A5D6 /* codegen-service-t.bag.admin.ch.der in Resources */ = {isa = PBXBuildFile; fileRef = 48E967992473478100E4A5D6 /* codegen-service-t.bag.admin.ch.der */; };
 		48E9679B2473478100E4A5D6 /* codegen-service-t.bag.admin.ch.der in Resources */ = {isa = PBXBuildFile; fileRef = 48E967992473478100E4A5D6 /* codegen-service-t.bag.admin.ch.der */; };
 		48E9679D2473479100E4A5D6 /* www.pt1-t.bfs.admin.ch.der in Resources */ = {isa = PBXBuildFile; fileRef = 48E9679C2473479100E4A5D6 /* www.pt1-t.bfs.admin.ch.der */; };
@@ -300,14 +300,6 @@
 		DCA3FFBC2451621D0003F5AD /* NSSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA3FFBB2451621D0003F5AD /* NSSplashViewController.swift */; };
 		DCA3FFBE24518E850003F5AD /* NSOnboardingInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA3FFBD24518E850003F5AD /* NSOnboardingInfoView.swift */; };
 		DCA3FFC02451975F0003F5AD /* NSOnboardingFinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA3FFBF2451975F0003F5AD /* NSOnboardingFinishViewController.swift */; };
-		DCB44307242DD34700F19AA5 /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C0D29242D04280017C4F9 /* Inter-Black.ttf */; };
-		DCB44308242DD34700F19AA5 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C0D28242D04280017C4F9 /* Inter-Bold.ttf */; };
-		DCB44309242DD34700F19AA5 /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C0D26242D04280017C4F9 /* Inter-ExtraBold.ttf */; };
-		DCB4430A242DD34700F19AA5 /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C0D2D242D04290017C4F9 /* Inter-ExtraLight.ttf */; };
-		DCB4430B242DD34700F19AA5 /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C0D2A242D04280017C4F9 /* Inter-Light.ttf */; };
-		DCB4430C242DD34700F19AA5 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C0D2C242D04290017C4F9 /* Inter-Medium.ttf */; };
-		DCB4430D242DD34700F19AA5 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C0D2B242D04290017C4F9 /* Inter-Regular.ttf */; };
-		DCB4430E242DD34700F19AA5 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C0D27242D04280017C4F9 /* Inter-SemiBold.ttf */; };
 		DCB44315242DFF8000F19AA5 /* NSHomescreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB44314242DFF8000F19AA5 /* NSHomescreenViewController.swift */; };
 		DF3BA22324520EE3009086E7 /* NSDebugDatabaseUploadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3BA22224520EE3009086E7 /* NSDebugDatabaseUploadHelper.swift */; };
 		F80E735A245AD7B400C934B8 /* URLSession+pinning.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80E7359245AD7B400C934B8 /* URLSession+pinning.swift */; };
@@ -399,6 +391,10 @@
 		24D33DA024880F6C0068E509 /* hr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hr; path = hr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		24D5EF672448CAB900C197D6 /* UIStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStateManager.swift; sourceTree = "<group>"; };
 		24D5EF692448CAE800C197D6 /* UIStateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStateModel.swift; sourceTree = "<group>"; };
+		283744A124A5CF4E00315D11 /* Bariol-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bariol-Light.otf"; sourceTree = "<group>"; };
+		283744A424A5CF6400315D11 /* Bariol-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bariol-Bold.otf"; sourceTree = "<group>"; };
+		283744A724A5CF7700315D11 /* Bariol-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bariol-Thin.otf"; sourceTree = "<group>"; };
+		289B02FF24A4D2D700DE274F /* Bariol-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bariol-Regular.otf"; sourceTree = "<group>"; };
 		48E967992473478100E4A5D6 /* codegen-service-t.bag.admin.ch.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = "codegen-service-t.bag.admin.ch.der"; sourceTree = "<group>"; };
 		48E9679C2473479100E4A5D6 /* www.pt1-t.bfs.admin.ch.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = "www.pt1-t.bfs.admin.ch.der"; sourceTree = "<group>"; };
 		6E1771532440B09A0008D73D /* NSCodeInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSCodeInputViewController.swift; sourceTree = "<group>"; };
@@ -431,14 +427,6 @@
 		6E7C0D1D242CE02D0017C4F9 /* NSLabelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLabelType.swift; sourceTree = "<group>"; };
 		6E7C0D1F242CE1190017C4F9 /* UIColor+NS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+NS.swift"; sourceTree = "<group>"; };
 		6E7C0D21242CE2100017C4F9 /* NSButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSButton.swift; sourceTree = "<group>"; };
-		6E7C0D26242D04280017C4F9 /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
-		6E7C0D27242D04280017C4F9 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
-		6E7C0D28242D04280017C4F9 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
-		6E7C0D29242D04280017C4F9 /* Inter-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Black.ttf"; sourceTree = "<group>"; };
-		6E7C0D2A242D04280017C4F9 /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
-		6E7C0D2B242D04290017C4F9 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
-		6E7C0D2C242D04290017C4F9 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
-		6E7C0D2D242D04290017C4F9 /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
 		6E7C0D36242E02600017C4F9 /* NSStackScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSStackScrollView.swift; sourceTree = "<group>"; };
 		6E7C0D38242E02A20017C4F9 /* NSLayoutConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLayoutConstants.swift; sourceTree = "<group>"; };
 		6E7C0D42242E44D80017C4F9 /* NSWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSWebViewController.swift; sourceTree = "<group>"; };
@@ -929,14 +917,10 @@
 		6E7C0D23242D01860017C4F9 /* Font */ = {
 			isa = PBXGroup;
 			children = (
-				6E7C0D29242D04280017C4F9 /* Inter-Black.ttf */,
-				6E7C0D28242D04280017C4F9 /* Inter-Bold.ttf */,
-				6E7C0D26242D04280017C4F9 /* Inter-ExtraBold.ttf */,
-				6E7C0D2D242D04290017C4F9 /* Inter-ExtraLight.ttf */,
-				6E7C0D2A242D04280017C4F9 /* Inter-Light.ttf */,
-				6E7C0D2C242D04290017C4F9 /* Inter-Medium.ttf */,
-				6E7C0D2B242D04290017C4F9 /* Inter-Regular.ttf */,
-				6E7C0D27242D04280017C4F9 /* Inter-SemiBold.ttf */,
+				289B02FF24A4D2D700DE274F /* Bariol-Regular.otf */,
+				283744A124A5CF4E00315D11 /* Bariol-Light.otf */,
+				283744A424A5CF6400315D11 /* Bariol-Bold.otf */,
+				283744A724A5CF7700315D11 /* Bariol-Thin.otf */,
 			);
 			path = Font;
 			sourceTree = "<group>";
@@ -1315,24 +1299,20 @@
 				242D2258245C4BD8005DAEA8 /* codegen-service-d.bag.admin.ch.der in Resources */,
 				242D2259245C4BD8005DAEA8 /* codegen-service.bag.admin.ch.der in Resources */,
 				242D225A245C4BD8005DAEA8 /* www.pt1-a.bfs.admin.ch.der in Resources */,
+				283744A624A5CF6400315D11 /* Bariol-Bold.otf in Resources */,
 				48E9679B2473478100E4A5D6 /* codegen-service-t.bag.admin.ch.der in Resources */,
+				289B030124A4D2D700DE274F /* Bariol-Regular.otf in Resources */,
 				242D225B245C4BD8005DAEA8 /* www.pt1-d.bfs.admin.ch.der in Resources */,
 				242D225C245C4BD8005DAEA8 /* www.pt1.bfs.admin.ch.der in Resources */,
 				242D225D245C4BD8005DAEA8 /* QuoVadis.der in Resources */,
-				242D225E245C4BD8005DAEA8 /* Inter-SemiBold.ttf in Resources */,
-				242D225F245C4BD8005DAEA8 /* Inter-Bold.ttf in Resources */,
 				48E9679E2473479100E4A5D6 /* www.pt1-t.bfs.admin.ch.der in Resources */,
-				242D2260245C4BD8005DAEA8 /* Inter-Light.ttf in Resources */,
 				242D2261245C4BD8005DAEA8 /* Assets.xcassets in Resources */,
 				242D2262245C4BD8005DAEA8 /* InfoPlist.strings in Resources */,
-				242D2263245C4BD8005DAEA8 /* Inter-ExtraLight.ttf in Resources */,
+				283744A324A5CF4E00315D11 /* Bariol-Light.otf in Resources */,
 				242D2264245C4BD8005DAEA8 /* Launch Screen.storyboard in Resources */,
-				242D2265245C4BD8005DAEA8 /* Inter-ExtraBold.ttf in Resources */,
-				242D2266245C4BD8005DAEA8 /* Inter-Black.ttf in Resources */,
+				283744A924A5CF7700315D11 /* Bariol-Thin.otf in Resources */,
 				242D2267245C4BD8005DAEA8 /* Localizable.strings in Resources */,
-				242D2268245C4BD8005DAEA8 /* Inter-Regular.ttf in Resources */,
 				242D2269245C4BD8005DAEA8 /* Impressum in Resources */,
-				242D226A245C4BD8005DAEA8 /* Inter-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1344,24 +1324,20 @@
 				F80E737B245AFE4500C934B8 /* codegen-service-d.bag.admin.ch.der in Resources */,
 				F80E737C245AFE4500C934B8 /* codegen-service.bag.admin.ch.der in Resources */,
 				F80E7371245AF51C00C934B8 /* www.pt1-a.bfs.admin.ch.der in Resources */,
+				283744A524A5CF6400315D11 /* Bariol-Bold.otf in Resources */,
 				48E9679A2473478100E4A5D6 /* codegen-service-t.bag.admin.ch.der in Resources */,
+				289B030024A4D2D700DE274F /* Bariol-Regular.otf in Resources */,
 				F80E7372245AF51C00C934B8 /* www.pt1-d.bfs.admin.ch.der in Resources */,
 				F80E7373245AF51C00C934B8 /* www.pt1.bfs.admin.ch.der in Resources */,
 				F80E7374245AF51C00C934B8 /* QuoVadis.der in Resources */,
-				DCB4430E242DD34700F19AA5 /* Inter-SemiBold.ttf in Resources */,
-				DCB44308242DD34700F19AA5 /* Inter-Bold.ttf in Resources */,
 				48E9679D2473479100E4A5D6 /* www.pt1-t.bfs.admin.ch.der in Resources */,
-				DCB4430B242DD34700F19AA5 /* Inter-Light.ttf in Resources */,
 				8E81CCA2241FCC7F006F2437 /* Assets.xcassets in Resources */,
 				DC9A81AC242CE5E000AD1548 /* InfoPlist.strings in Resources */,
-				DCB4430A242DD34700F19AA5 /* Inter-ExtraLight.ttf in Resources */,
+				283744A224A5CF4E00315D11 /* Bariol-Light.otf in Resources */,
 				24780B34242FDF4C003BB26C /* Launch Screen.storyboard in Resources */,
-				DCB44309242DD34700F19AA5 /* Inter-ExtraBold.ttf in Resources */,
-				DCB44307242DD34700F19AA5 /* Inter-Black.ttf in Resources */,
+				283744A824A5CF7700315D11 /* Bariol-Thin.otf in Resources */,
 				DC9A81AB242CE5E000AD1548 /* Localizable.strings in Resources */,
-				DCB4430D242DD34700F19AA5 /* Inter-Regular.ttf in Resources */,
 				6EC7E821245B27E10015A55B /* Impressum in Resources */,
-				DCB4430C242DD34700F19AA5 /* Inter-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2265,7 +2241,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "${PRIMARY_BUNDLE_IDENTIFIER}";
+				PRODUCT_BUNDLE_IDENTIFIER = "-org.csalutib.covid19.dp3t";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "DP3T Debug";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "RELEASE_ABNAHME ENABLE_TESTING ENABLE_OS_LOG";
@@ -2386,7 +2362,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "${PRIMARY_BUNDLE_IDENTIFIER}";
+				PRODUCT_BUNDLE_IDENTIFIER = "-org.csalutib.covid19.dp3t";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "DP3T Debug";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG ENABLE_TESTING ENABLE_SYNC_LOGGING ENABLE_STATUS_OVERRIDE ENABLE_OS_LOG";
@@ -2494,7 +2470,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "${PRIMARY_BUNDLE_IDENTIFIER}";
+				PRODUCT_BUNDLE_IDENTIFIER = "-org.csalutib.covid19.dp3t";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "DP3T Debug";
 				SWIFT_OBJC_BRIDGING_HEADER = "DP3TApp/Supporting Files/DP3TApp-Bridging-Header.h";

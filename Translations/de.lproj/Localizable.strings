@@ -1,9 +1,9 @@
 
 /*App Name*/
-"app_name" = "SwissCovid";
+"app_name" = "IBCOVID";
 
 /*App Name (unter Icon auf iOS)*/
-"CFBundleDisplayName" = "SwissCovid";
+"CFBundleDisplayName" = "IBCOVID";
 
 /*Loading View: Erneut laden*/
 "loading_view_reload" = "Erneut laden";
@@ -291,7 +291,7 @@
 "meldungen_detail_call" = "Rufen Sie uns an";
 
 /*Meldungen Detail Text Weisse Box*/
-"meldungen_detail_call_text" = "Infoline SwissCovid";
+"meldungen_detail_call_text" = "Infoline IBCOVID";
 
 /*Meldungen Detail Weisse Box Button*/
 "meldungen_detail_call_button" = "Jetzt anrufen";
@@ -307,7 +307,7 @@
 "meldungen_detail_explanation_text2" = "Bitte schützen Sie Ihre Familie, Ihre Freunde und Ihr Umfeld. Vermeiden Sie Kontakte bis 10 Tage nach einer möglichen Ansteckung.";
 
 /*Meldungen Detail: Weisse Box Text*/
-"meldungen_detail_guard_text" = "Bei Rückfragen:\nInfoline SwissCovid\n+41 58 387 77 78";
+"meldungen_detail_guard_text" = "Bei Rückfragen:\nInfoline IBCOVID\n+41 58 387 77 78";
 
 /*Meldungen Detail Button Weisse Box*/
 "meldungen_detail_call_again_button" = "Erneut anrufen";
@@ -326,7 +326,7 @@
 "onboarding_prinzip_title" = "Dem Virus einen\nSchritt voraus";
 
 /*Onboarding Prinzip Text*/
-"onboarding_prinzip_text1" = "Mit der SwissCovid App können alle dazu beitragen die Verbreitung des neuen Coronavirus einzudämmen.";
+"onboarding_prinzip_text1" = "Mit der IBCOVID App können alle dazu beitragen die Verbreitung des neuen Coronavirus einzudämmen.";
 
 /*Onboarding Prinzip Text*/
 "onboarding_prinzip_text2" = "Die App informiert Sie, wenn Sie potenziell dem neuen Coronavirus ausgesetzt waren.";
@@ -592,7 +592,7 @@
 "meldungen_nomeldungen_faq2_text" = "Die App prüft nicht nur, ob Begegnungen mit infizierten Personen stattfanden, sondern auch wie lange und wie nahe diese waren.\n\nNur wenn die Möglichkeit einer Ansteckung gross genug ist, werden Sie informiert.";
 
 /*Meldungen Detail Weisse Box Texte Unten*/
-"meldungen_detail_explanation_text3" = "Die Infoline SwissCovid berät Sie über die Möglichkeit eines kostenlosen Tests.";
+"meldungen_detail_explanation_text3" = "Die Infoline IBCOVID berät Sie über die Möglichkeit eines kostenlosen Tests.";
 
 /*Meldungen: Meldungen FAQ*/
 "meldungen_meldungen_faq1_title" = "Muss ich anrufen?";
@@ -622,7 +622,7 @@
 "inform_detail_faq2_title" = "Was wird gesendet?";
 
 /*Inform Detail FAQ Text*/
-"inform_detail_faq2_text" = "Es werden nur die zufälligen IDs Ihrer App gesendet, keine persönlichen Daten.\n\nDamit erfahren andere SwissCovid App Nutzer, dass die Möglichkeit einer Ansteckung besteht.";
+"inform_detail_faq2_text" = "Es werden nur die zufälligen IDs Ihrer App gesendet, keine persönlichen Daten.\n\nDamit erfahren andere IBCOVID App Nutzer, dass die Möglichkeit einer Ansteckung besteht.";
 
 /*Telefonnummer der Infoline*/
 "infoline_tel_number" = "+41 58 387 77 78";
@@ -656,7 +656,7 @@
 
 /*Meldungen Homescreen: Name Hotline*/
 /*Fuzzy*/
-"exposed_info_contact_hotline_name" = "Infoline SwissCovid";
+"exposed_info_contact_hotline_name" = "Infoline IBCOVID";
 
 /*Meldung Detail: "Noch 1 Tag" Label*/
 "date_in_one_day" = "Noch 1 Tag";
@@ -755,7 +755,7 @@
 "tracing_permission_error_text_ios" = "Aktivieren Sie COVID-19-Kontaktmitteilungen, damit das Tracing funktioniert.";
 
 /*Error-Meldung, wenn der Benutzer während des Informieren-Flows bei GApple das Key-Sharing nicht erlaubt.*/
-"user_cancelled_key_sharing_error" = "Die Meldung konnte nicht gesendet werden. Bitte erlauben Sie das Teilen Ihrer zufälligen IDs mit der SwissCovid App.";
+"user_cancelled_key_sharing_error" = "Die Meldung konnte nicht gesendet werden. Bitte erlauben Sie das Teilen Ihrer zufälligen IDs mit der IBCOVID App.";
 
 /*Button um die Google Play Services zu aktualisieren*/
 "playservices_update" = "Aktualisieren";
@@ -845,10 +845,10 @@
 
 /*Code-Label Titel im Dialog mit dem Code, der vor dem Anrufen angezeigt wird, wenn ein Kontakt positiv ist.*/
 "pre_call_dialog_box_number" = "Nummer";
-"tracing_active_tracking_always_info" = "SwissCovid bleibt aktiv, auch wenn die App geschlossen wird.";
+"tracing_active_tracking_always_info" = "IBCOVID bleibt aktiv, auch wenn die App geschlossen wird.";
 
 /*title in splash screen of onboarding*/
-"oboarding_splashscreen_title" = "SwissCovid \nstoppt \nInfektionsketten.";
+"oboarding_splashscreen_title" = "IBCOVID \nstoppt \nInfektionsketten.";
 "inform_detail_faq3_text" = "Obwohl keine Daten zu Ihrer Person gesendet werden, kann es sein, dass sich jemand anhand des Datums an die Begegnung erinnern kann.";
 "inform_detail_faq3_title" = "Bleibe ich anonym?";
 
@@ -863,7 +863,7 @@
 "onboarding_gaen_text_android" = "Um die App nutzen zu können, müssen COVID-19 Benachrichtigungen aktiviert werden.";
 
 /*Onboarding Disclaimer Screen: AppName Title*/
-"onboarding_disclaimer_heading" = "SwissCovid";
+"onboarding_disclaimer_heading" = "IBCOVID";
 
 /*Onboarding Disclaimer Screen: Title*/
 "onboarding_disclaimer_title" = "Hinweise zur Nutzung";
@@ -881,7 +881,7 @@
 "onboarding_disclaimer_manufacturer" = "Bundesamt für Gesundheit BAG\nSchwarzenburgstrasse 157\n3097 Liebefeld, Schweiz";
 
 /*Onboarding Disclaimer Screen: App version title*/
-"onboarding_disclaimer_app_version" = "SwissCovid App Version";
+"onboarding_disclaimer_app_version" = "IBCOVID App Version";
 
 /*Onboarding Disclaimer Screen: Release version title*/
 "onboarding_disclaimer_release_version" = "Release Date:";
@@ -890,7 +890,7 @@
 "onboarding_disclaimer_legal_button" = "Datenschutzerklärung & Nutzungsbedingungen";
 
 /*onboarding privacy and conditions of use url*/
-"onboarding_disclaimer_legal_button_url" = "https://www.bag.admin.ch/swisscovid-datenschutzerklaerung-und-nutzungsbedingungen";
+"onboarding_disclaimer_legal_button_url" = "https://www.bag.admin.ch/IBCOVID-datenschutzerklaerung-und-nutzungsbedingungen";
 
 /*Google Translation*/
 /*Error shown when loading fails because there is not enough free disk space.*/

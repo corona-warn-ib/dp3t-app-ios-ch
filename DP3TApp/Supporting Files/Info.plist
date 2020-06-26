@@ -28,14 +28,10 @@
 	<true/>
 	<key>UIAppFonts</key>
 	<array>
-		<string>Inter-Regular.ttf</string>
-		<string>Inter-Black.ttf</string>
-		<string>Inter-Bold.ttf</string>
-		<string>Inter-ExtraBold.ttf</string>
-		<string>Inter-Light.ttf</string>
-		<string>Inter-Medium.ttf</string>
-		<string>Inter-SemiBold.ttf</string>
-		<string>Inter-ExtraLight.ttf</string>
+		<string>Bariol-Regular.otf</string>
+		<string>Bariol-Light.otf</string>
+		<string>Bariol-Bold.otf</string>
+		<string>Bariol-Thin.otf</string>
 	</array>
 	<key>UIBackgroundModes</key>
 	<array>

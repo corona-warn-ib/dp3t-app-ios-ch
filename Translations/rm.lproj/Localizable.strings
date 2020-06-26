@@ -1,9 +1,9 @@
 
 /*App Name*/
-"app_name" = "SwissCovid";
+"app_name" = "IBCOVID";
 
 /*App Name (unter Icon auf iOS)*/
-"CFBundleDisplayName" = "SwissCovid";
+"CFBundleDisplayName" = "IBCOVID";
 
 /*Loading View: Erneut laden*/
 "loading_view_reload" = "Chargiar danovamain";
@@ -304,7 +304,7 @@
 "meldungen_detail_explanation_text2" = "Protegi per plaschair Vossa famiglia, Voss amis e Voss ambient. Evitai contacts fin a 10 dis suenter in'eventuala infecziun.";
 
 /*Meldungen Detail: Weisse Box Text*/
-"meldungen_detail_guard_text" = "En cas da dumondas:\nInfoline SwissCovid\n+41 58 387 77 78";
+"meldungen_detail_guard_text" = "En cas da dumondas:\nInfoline IBCOVID\n+41 58 387 77 78";
 
 /*Meldungen Detail Button Weisse Box*/
 "meldungen_detail_call_again_button" = "Telefonar danovamain";
@@ -322,7 +322,7 @@
 "onboarding_prinzip_title" = "In pass ordavant al virus";
 
 /*Onboarding Prinzip Text*/
-"onboarding_prinzip_text1" = "Cun l'app SwissCovid pon tuts gidar da franar la derasaziun dal nov coronavirus";
+"onboarding_prinzip_text1" = "Cun l'app IBCOVID pon tuts gidar da franar la derasaziun dal nov coronavirus";
 
 /*Onboarding Prinzip Text*/
 "onboarding_prinzip_text2" = "L'app As infurmescha, sche Vus essas potenzialmain stà exponì/stada exponida al nov coronavirus.";
@@ -580,7 +580,7 @@
 "meldungen_nomeldungen_faq2_text" = "L'app n'examinescha betg sulettamain, sch'i ha dà scuntradas cun persunas infectadas, mabain er quant ditg ch'ellas han durà e quant damanaivel che Vus essas stà/stada a questas persunas.\n\nVus vegnis infurmà/infurmada mo sche la pussaivladad d'esser infectà/infectada è gronda avunda.";
 
 /*Meldungen Detail Weisse Box Texte Unten*/
-"meldungen_detail_explanation_text3" = "L'infoline SwissCovid As cusseglia davart la pussaivladad d'in test gratuit.";
+"meldungen_detail_explanation_text3" = "L'infoline IBCOVID As cusseglia davart la pussaivladad d'in test gratuit.";
 
 /*Meldungen: Meldungen FAQ*/
 "meldungen_meldungen_faq1_title" = "Stoss jau telefonar?";
@@ -610,7 +610,7 @@
 "inform_detail_faq2_title" = "Tge vegn tramess?";
 
 /*Inform Detail FAQ Text*/
-"inform_detail_faq2_text" = "I vegnan mo tramess ils IDs casuals da Voss'app, naginas datas persunalas.\n\nUschia san auters utilisaders da l'app SwissCovid ch'i dat la pussaivladad d'ina infecziun.";
+"inform_detail_faq2_text" = "I vegnan mo tramess ils IDs casuals da Voss'app, naginas datas persunalas.\n\nUschia san auters utilisaders da l'app IBCOVID ch'i dat la pussaivladad d'ina infecziun.";
 
 /*Telefonnummer der Infoline*/
 "infoline_tel_number" = "+41 58 387 77 78";
@@ -643,7 +643,7 @@
 "language_key" = "rm";
 
 /*Meldungen Homescreen: Name Hotline*/
-"exposed_info_contact_hotline_name" = "Infoline SwissCovid";
+"exposed_info_contact_hotline_name" = "Infoline IBCOVID";
 
 /*Meldung Detail: "Noch 1 Tag" Label*/
 "date_in_one_day" = "Anc 1 di";
@@ -736,7 +736,7 @@
 "tracing_permission_error_text_ios" = "Activai communicaziuns COVID-19 per ch'il tracing anonim funcziunia.";
 
 /*Error-Meldung, wenn der Benutzer während des Informieren-Flows bei GApple das Key-Sharing nicht erlaubt.*/
-"user_cancelled_key_sharing_error" = "La communicaziun n'ha betg pudì vegnir tramessa. Per plaschair permettai la cundivisiun da Voss IDs casuals cun l'app SwissCovid.";
+"user_cancelled_key_sharing_error" = "La communicaziun n'ha betg pudì vegnir tramessa. Per plaschair permettai la cundivisiun da Voss IDs casuals cun l'app IBCOVID.";
 
 /*Button um die Google Play Services zu aktualisieren*/
 "playservices_update" = "Actualisar";
@@ -824,10 +824,10 @@
 
 /*Code-Label Titel im Dialog mit dem Code, der vor dem Anrufen angezeigt wird, wenn ein Kontakt positiv ist.*/
 "pre_call_dialog_box_number" = "Numer";
-"tracing_active_tracking_always_info" = "SwissCovid resta activ, era sche l'app vegn serrada.";
+"tracing_active_tracking_always_info" = "IBCOVID resta activ, era sche l'app vegn serrada.";
 
 /*title in splash screen of onboarding*/
-"oboarding_splashscreen_title" = "SwissCovid \nfraina \nchadainas d'infecziun.";
+"oboarding_splashscreen_title" = "IBCOVID \nfraina \nchadainas d'infecziun.";
 "inform_detail_faq3_text" = "Cumbain ch'i na vegnan tramessas naginas datas davart Vossa persuna èsi pussaivel ch'insatgi sa regorda da la scuntrada a maun da la data.";
 "inform_detail_faq3_title" = "Rest jau anonim?";
 
@@ -841,7 +841,7 @@
 "onboarding_gaen_text_android" = "Per pudair utilisar l'app, ston vegnir activadas communicaziuns COVID-19";
 
 /*Onboarding Disclaimer Screen: AppName Title*/
-"onboarding_disclaimer_heading" = "SwissCovid";
+"onboarding_disclaimer_heading" = "IBCOVID";
 
 /*Onboarding Disclaimer Screen: Title*/
 "onboarding_disclaimer_title" = "Infurmaziuns davart il diever";
@@ -859,7 +859,7 @@
 "onboarding_disclaimer_manufacturer" = "Bundesamt für Gesundheit BAG\nSchwarzenburgstrasse 157\n3097 Liebefeld, Schweiz";
 
 /*Onboarding Disclaimer Screen: App version title*/
-"onboarding_disclaimer_app_version" = "SwissCovid App Version";
+"onboarding_disclaimer_app_version" = "IBCOVID App Version";
 
 /*Onboarding Disclaimer Screen: Release version title*/
 "onboarding_disclaimer_release_version" = "Release Date:";
@@ -868,7 +868,7 @@
 "onboarding_disclaimer_legal_button" = "Basas legalas";
 
 /*onboarding privacy and conditions of use url*/
-"onboarding_disclaimer_legal_button_url" = "https://www.bag.admin.ch/swisscovid-datenschutzerklaerung-und-nutzungsbedingungen";
+"onboarding_disclaimer_legal_button_url" = "https://www.bag.admin.ch/IBCOVID-datenschutzerklaerung-und-nutzungsbedingungen";
 
 /*Google Translation*/
 /*Error shown when loading fails because there is not enough free disk space.*/

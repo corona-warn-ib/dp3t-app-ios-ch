@@ -46,15 +46,15 @@ public enum NSLabelType: UBLabelType {
     public var font: UIFont {
         let bfs = NSFontSize.bodyFontSize
 
-        var boldFontName = "Inter-Bold"
-        var regularFontName = "Inter-Regular"
-        var lightFontName = "Inter-Light"
+        var boldFontName = "Bariol-Bold"
+        var regularFontName = "Bariol-Regular"
+        var lightFontName = "Bariol-Light"
 
         switch UITraitCollection.current.legibilityWeight {
         case .bold:
-            boldFontName = "Inter-ExtraBold"
-            regularFontName = "Inter-Bold"
-            lightFontName = "Inter-Medium"
+            boldFontName = "Bariol-Bold"
+            regularFontName = "Bariol-Regular"
+            lightFontName = "Bariol-Light"
         default:
             break
         }

@@ -47,19 +47,19 @@ jobs:
       run: bundle exec fastlane build_and_sign
 
     - name: SHA256
-      run: shasum -a 256 build/SwissCovid.ipa
+      run: shasum -a 256 build/IBCOVID.ipa
 
     - name: Archive ipa file
       uses: actions/upload-artifact@v2
       with:
-        name: AppStore_DEV_SwissCovid.ipa
-        path: build/SwissCovid.ipa
+        name: AppStore_DEV_IBCOVID.ipa
+        path: build/IBCOVID.ipa
     
     - name: Archive xcarchive (incl symbols) files
       uses: actions/upload-artifact@v2
       with:
-        name: AppStore_DEV_SwissCovid.xcarchive
-        path: "build/SwissCovid.xcarchive"
+        name: AppStore_DEV_IBCOVID.xcarchive
+        path: "build/IBCOVID.xcarchive"
     
     - name: Archive log file
       uses: actions/upload-artifact@v2
@@ -108,19 +108,19 @@ jobs:
       run: bundle exec fastlane build_and_sign
 
     - name: SHA256
-      run: shasum -a 256 build/SwissCovid.ipa
+      run: shasum -a 256 build/IBCOVID.ipa
 
     - name: Archive ipa file
       uses: actions/upload-artifact@v2
       with:
-        name: AppStore_TEST_SwissCovid.ipa
-        path: build/SwissCovid.ipa
+        name: AppStore_TEST_IBCOVID.ipa
+        path: build/IBCOVID.ipa
     
     - name: Archive xcarchive (incl symbols) files
       uses: actions/upload-artifact@v2
       with:
-        name: AppStore_TEST_SwissCovid.xcarchive
-        path: "build/SwissCovid.xcarchive"
+        name: AppStore_TEST_IBCOVID.xcarchive
+        path: "build/IBCOVID.xcarchive"
     
     - name: Archive log file
       uses: actions/upload-artifact@v2
@@ -169,19 +169,19 @@ jobs:
       run: bundle exec fastlane build_and_sign
     
     - name: SHA256
-      run: shasum -a 256 build/SwissCovid.ipa
+      run: shasum -a 256 build/IBCOVID.ipa
 
     - name: Archive ipa file
       uses: actions/upload-artifact@v2
       with:
-        name: AppStore_ABNAHME_SwissCovid.ipa
-        path: build/SwissCovid.ipa
+        name: AppStore_ABNAHME_IBCOVID.ipa
+        path: build/IBCOVID.ipa
     
     - name: Archive xcarchive (incl symbols) files
       uses: actions/upload-artifact@v2
       with:
-        name: AppStore_ABNAHME_SwissCovid.xcarchive
-        path: "build/SwissCovid.xcarchive"
+        name: AppStore_ABNAHME_IBCOVID.xcarchive
+        path: "build/IBCOVID.xcarchive"
     
     - name: Archive log file
       uses: actions/upload-artifact@v2
@@ -216,19 +216,19 @@ jobs:
       run: bundle exec fastlane build_and_sign
 
     - name: SHA256
-      run: shasum -a 256 build/SwissCovid.ipa
+      run: shasum -a 256 build/IBCOVID.ipa
 
     - name: Archive ipa file
       uses: actions/upload-artifact@v2
       with:
-        name: AppStore_PROD_SwissCovid.ipa
-        path: build/SwissCovid.ipa
+        name: AppStore_PROD_IBCOVID.ipa
+        path: build/IBCOVID.ipa
     
     - name: Archive xcarchive (incl symbols) files
       uses: actions/upload-artifact@v2
       with:
-        name: AppStore_PROD_SwissCovid.xcarchive
-        path: "build/SwissCovid.xcarchive"
+        name: AppStore_PROD_IBCOVID.xcarchive
+        path: "build/IBCOVID.xcarchive"
     
     - name: Archive log file
       uses: actions/upload-artifact@v2

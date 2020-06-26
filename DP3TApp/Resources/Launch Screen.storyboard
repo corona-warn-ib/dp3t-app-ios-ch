@@ -43,13 +43,13 @@
                     <navigationItem key="navigationItem" id="Vy7-BT-cFQ">
                         <nil key="title"/>
                         <view key="titleView" contentMode="scaleToFill" id="Ca2-3g-1PQ">
-                            <rect key="frame" x="168.5" y="21.5" width="77" height="1"/>
+                            <rect key="frame" x="169" y="22" width="77" height="1"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
                                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gxt-gK-VHQ">
                                     <rect key="frame" x="-213" y="23" width="526" height="3"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                    <color key="backgroundColor" red="0.88627450980392153" green="0.0" blue="0.031372549019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" red="0.70052504540000005" green="0.14361518619999999" blue="0.27843162420000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </view>
                             </subviews>
                             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
